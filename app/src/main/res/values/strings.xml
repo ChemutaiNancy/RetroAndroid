@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="school">School</string>
+    <string name="already_have_an_account_click_to_login">Already have an account? Click to Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_text">Sign Up</string>
+</resources>
