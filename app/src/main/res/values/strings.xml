@@ -4,7 +4,10 @@
     <string name="password">Password</string>
     <string name="name">Name</string>
     <string name="school">School</string>
-    <string name="already_have_an_account_click_to_login">Already have an account? Click to Login</string>
+    <string name="already_have_an_account_click_to_login">Already have an account?\n Click to Login</string>
     <string name="sign_up">Sign Up</string>
     <string name="sign_up_text">Sign Up</string>
+    <string name="don_t_have_an_account_click_to_register">Don\'t have an Account?\n Click to Register</string>
+    <string name="login">Login</string>
+    <string name="login">Login</string>
 </resources>

@@ -4,14 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/margin"
-    android:layout_marginTop="@dimen/margin"
-    android:layout_marginBottom="@dimen/margin"
-    android:layout_marginRight="@dimen/margin"
-    android:layout_marginLeft="@dimen/margin"
     android:background="@color/design_default_color_secondary_variant"
-    tools:context=".activities.MainActivity">
-
+    tools:context=".activities.LoginActivity">
 
     <TextView
         android:id="@+id/txtSignUp"
@@ -21,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="@dimen/text_size"
         android:textColor="@color/design_default_color_on_secondary"
-        android:text="@string/sign_up_text" />
+        android:text="@string/login" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -62,56 +56,28 @@
                 android:drawableStart="@drawable/ic_password" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColorHint="@color/design_default_color_on_secondary">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/name"
-                android:inputType="text"
-                android:drawableLeft="@drawable/ic_name"
-                android:drawableStart="@drawable/ic_name" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColorHint="@color/design_default_color_on_secondary">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/school"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/school"
-                android:inputType="text"
-                android:drawableLeft="@drawable/ic_school"
-                android:drawableStart="@drawable/ic_school" />
-        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
     <TextView
-        android:id="@+id/txtAlreadySignedIn"
+        android:id="@+id/txtRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="@dimen/text_size"
         android:textColor="@color/design_default_color_on_secondary"
         android:layout_below="@id/linearLayout"
-        android:text="@string/already_have_an_account_click_to_login" />
+        android:text="@string/don_t_have_an_account_click_to_register" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/sign_up"
+        android:text="@string/login"
         android:textSize="@dimen/text_size"
         android:textAllCaps="false"
         android:background="@color/design_default_color_secondary_variant"
         android:textColor="@color/design_default_color_on_secondary"
         android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>
